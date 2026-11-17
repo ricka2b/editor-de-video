@@ -1,4 +1,4 @@
-# Editor de Vídeo para Codex
+# Editor de Vídeo para Claude Code e Codex
 
 O Editor de Vídeo usa a identidade da sua marca. Primeiro pede o nome do editor, a paleta, as fontes e as referências. Depois analisa os vídeos com `watch`, monta um guia de edição e pede a narração ou gravação e a trilha de fundo.
 
@@ -17,6 +17,15 @@ Abra um novo chat no Codex em uma pasta de trabalho e envie:
 ```text
 Use $editor-de-video para configurar meu editor e analisar os vídeos de referência que vou enviar.
 ```
+
+## Instalar no Claude Code
+
+1. [Baixe o ZIP com as duas skills](https://github.com/ricka2b/editor-de-video/releases/latest/download/editor-de-video.zip) e descompacte.
+2. Copie as pastas `editor-de-video` e `watch` inteiras para `~/.claude/skills/` no macOS ou Linux, ou `%USERPROFILE%\.claude\skills\` no Windows. Crie a pasta `skills` se ela ainda não existir. Cada pasta de skill deve conter seu próprio arquivo `SKILL.md`.
+3. Abra uma nova sessão local do Claude Code. Se estiver no app Claude Desktop, abra a aba **Code**.
+4. Digite `/editor-de-video` para configurar seu editor e enviar referências. Para analisar um vídeo avulso, use `/watch`.
+
+Consulte o [guia oficial de skills do Claude Code](https://code.claude.com/docs/en/skills) para ver as opções de instalação por projeto.
 
 ## Requisitos
 
