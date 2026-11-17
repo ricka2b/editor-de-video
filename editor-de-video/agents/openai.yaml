@@ -1,0 +1,4 @@
+interface:
+  display_name: "Editor de Vídeo"
+  short_description: "Edite vídeos com sua marca e referências"
+  default_prompt: "Use $editor-de-video para configurar meu editor, analisar minhas referências e preparar meu primeiro vídeo."
